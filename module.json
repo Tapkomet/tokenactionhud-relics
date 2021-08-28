@@ -1,0 +1,72 @@
+{
+    "name": "token-action-hud-relics",
+    "title": "Token Action HUD Relics",
+    "author": "^ and stick#0520, Drental#7146",
+    "description": "Creates a HUD showing a selected token's common actions.",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "0.8.8",
+    "scripts": [
+        "./lib/tagify/tagify.min.js"
+    ],
+    "esmodules": [
+        "./scripts/init.js"
+    ],
+    "styles": [
+        "./styles/token-action-hud-relics.css",
+        "/styles/lib/tagify/tagify.css"
+    ],
+    "system": [
+		"relics"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "ko",
+            "name": "Korean",
+            "path": "lang/ko.json"
+        },
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "lang/br.json"
+        },
+        {
+            "lang": "es",
+            "name": "Spanish",
+            "path": "lang/es.json"
+        },
+        {
+            "lang": "fr",
+            "name": "French",
+            "path": "lang/fr.json"
+        },
+        {
+            "lang": "pl",
+            "name": "Polish",
+            "path": "lang/pl.json"
+        },
+        {
+            "lang": "ja",
+            "name": "日本語",
+            "path": "lang/ja.json"
+        },
+        {
+            "lang": "cn",
+            "name": "中文",
+            "path": "lang/cn.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        }
+    ],
+    "url": "https://github.com/Tapkomet/tokenactionhud-relics",
+    "manifest": "https://raw.githubusercontent.com/Tapkomet/tokenactionhud-relics/main/module.json",
+    "version": "1.1.17",
+    "download": "https://github.com/Tapkomet/tokenactionhud-relics/archive/refs/heads/main.zip"
+}
