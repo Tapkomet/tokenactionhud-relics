@@ -66,7 +66,12 @@
         }
     ],
     "url": "https://github.com/Tapkomet/tokenactionhud-relics",
+    "dependencies": [],
+    "socket": false,
     "manifest": "https://raw.githubusercontent.com/Tapkomet/tokenactionhud-relics/main/module.json",
     "version": "1.1.17",
-    "download": "https://github.com/Tapkomet/tokenactionhud-relics/archive/refs/heads/main.zip"
+    "download": "https://github.com/Tapkomet/tokenactionhud-relics/archive/refs/heads/main.zip",
+    "protected": false,
+    "coreTranslation": false,
+    "library": false
 }
