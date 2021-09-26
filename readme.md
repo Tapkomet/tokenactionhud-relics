@@ -27,29 +27,6 @@ Offers a variety of settings including support for third-party roll handlers (Pl
 [Using custom categories](custom_categories.md)
 
 ## Support for WFRP
-![Warhammer Fantasy Roleplay 4E](.github/readme/tah-wfrp.gif)
-
-## Dungeon World
-![Dungeon World](.github/readme/tah-dungeonworld.gif)
-
-## Pathfinder 2E
-![Pathfinder 2E](.github/readme/tah-pf2e.gif)
-
-## Starfinder RPG
-![Starfinder RPG](.github/readme/tah-sfrpg.gif)
-
-# Supported systems
-* Blades in the Dark
-* RELICS (including [BetterRolls](https://github.com/RedReign/FoundryVTT-BetterRolls5e), [MinorQol](https://gitlab.com/tposney/minor-qol), [Magic Items](https://gitlab.com/riccisi/foundryvtt-magic-items/), and [Item Macro](https://github.com/Kekilla0/Item-Macro).
-* Dungeon World
-* PF2E
-* WFRP4e
-* SFRPG
-* SWRPG
-* SotDL
-* PF1
-* Star Wars FFG
-* Tormenta20
 * Symbaroum
 * Any other system? I believe the HUD is modular enough that anyone who understands what the players of their system want and how actions in their system are handled could quickly build it into the HUD. Please contact me if you'd like to add support for your favourite system.
 
