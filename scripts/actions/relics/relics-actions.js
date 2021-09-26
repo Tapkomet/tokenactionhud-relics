@@ -760,6 +760,8 @@ export class ActionHandler5e extends ActionHandler {
         action.info2 = this._getUsesData(item);
 
         action.info3 = this._getConsumeData(item, actor)
+
+        action.info4 = this._getRangeData(item)
     }
 
     _getImage(item) {
@@ -775,6 +777,17 @@ export class ActionHandler5e extends ActionHandler {
         const itemData = this._getEntityData(item);
         let result = '';
         let quantity = itemData.quantity;
+        if (quantity > 1) {
+            result = quantity;
+        }
+
+        return result;
+    }
+    /** @private */
+    _getRangeData(item) {
+        const itemData = this._getEntityData(item);
+        let result = '';
+        let quantity = itemData.range.value;
         if (quantity > 1) {
             result = quantity;
         }

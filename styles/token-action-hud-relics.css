@@ -243,7 +243,7 @@
     background: none;
 }
 
-.tah-info1, .tah-info2, .tah-info3 {
+.tah-info1, .tah-info2, .tah-info3, .tah-info4 {
     font-size: smaller;
     display: inline;
 }
@@ -264,7 +264,7 @@
     -1px -1px 1px rgba(52, 52, 52, 1);
 }
 
-.tah-info3 {
+.tah-info3, .tah-info4 {
     text-shadow:  0 0 1px rgba(2, 240, 248, 0.95),
     -1px -1px 1px rgba(52, 52, 52, 1),
     -1px -1px 1px rgba(52, 52, 52, 1),
@@ -322,6 +322,14 @@
 
 .tah-info3:after {
     content: "}";
+}
+
+.tah-info4:before {
+    content: " (";
+}
+
+.tah-info4:after {
+    content: " m.)";
 }
  
 .tah-action button {

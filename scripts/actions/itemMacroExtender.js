@@ -81,6 +81,7 @@ export class ItemMacroActionListExtender extends ActionListExtender {
         newAction.info1 = action.info1;
         newAction.info2 = action.info2;
         newAction.info3 = action.info3;
+        newAction.info4 = action.info4;
     
         return newAction;
     }
