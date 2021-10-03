@@ -4,7 +4,7 @@
     "author": "^ and stick#0520, Drental#7146",
     "description": "Creates a HUD showing a selected token's common actions.",
     "minimumCoreVersion": "0.8.0",
-    "compatibleCoreVersion": "0.8.8",
+    "compatibleCoreVersion": "0.8.9",
     "scripts": [
         "./lib/tagify/tagify.min.js"
     ],
